@@ -120,7 +120,7 @@ void processFile(char *filename)
     }
 
     printf("Read: %d pixels, into: %zd\n", location, alloc_mem);
-    
+
     free(colorTripler);
 }
 
